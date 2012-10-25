@@ -85,8 +85,6 @@ PRODUCT_COPY_FILES += \
     device/motorola/triumph/prebuilt/SuplRootCert:/system/etc/SuplRootCert \
     device/motorola/triumph/prebuilt/apns-conf.xml:system/etc/apns-conf.xml \
     device/motorola/triumph/prebuilt/bi041p.idc:/system/usr/idc/bi041p.idc \
-    device/motorola/triumph/prebuilt/media_profiles.xml:system/etc/media_profiles.xml \
-    device/motorola/triumph/prebuilt/audio_policy.conf:system/etc/audio_policy.conf
 
 # Triumph init scripts
 PRODUCT_COPY_FILES += \
@@ -102,6 +100,12 @@ PRODUCT_COPY_FILES += \
     device/motorola/triumph/prebuilt/init.qcom.wifi.sh:/system/etc/init.qcom.wifi.sh \
     device/motorola/triumph/prebuilt/init.apn.sh:/system/etc/init.apn.sh \
     device/motorola/triumph/prebuilt/telephony.sql:/system/etc/telephony.sql 
+
+# Media Config XML files
+PRODUCT_COPY_FILES += \
+    device/motorola/triumph/prebuilt/media_profiles.xml:/system/etc/media_profiles.xml \
+    device/motorola/triumph/prebuilt/audio_policy.conf:/system/etc/audio_policy.conf \
+    device/motorola/triumph/prebuilt/media_codecs.xml:/system/etc/media_codecs.xml
 
 # Wifi
 PRODUCT_COPY_FILES += \
